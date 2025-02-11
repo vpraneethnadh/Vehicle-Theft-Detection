@@ -8,11 +8,11 @@ from email.mime.base import MIMEBase
 from email.mime.text import MIMEText
 from geopy.geocoders import Nominatim
 
-fromaddr = "ecsproject2023@gmail.com"  # From Email ID
-toaddr = "vpraneethnadh@gmail.com"  # To Email ID
-filename = "/home/pi/ecs_images/captured_image.jpg"  # The file path here
-password = "fthwnahozzuooxmc"  # Email Password
-authorized_image_path = "/home/pi/ecs_images/4.jpg"  # The authorized image path here
+fromaddr = "XXXXXXXXXXXXX"  # From Email ID
+toaddr = "XXXXXXXXXXXXXXXX"  # To Email ID
+filename = "XXXXXXXXXXXXXX"  # The file PATH here
+password = "XXXXXXXXXXXXXXXXXXXX"  # Email Password
+authorized_image_path = "XXXXXXXXXXXXXXXXXXXX"  # The authorized image PATH here
 
 def create_folders():
     folder = '/home/pi/ecs_images'
