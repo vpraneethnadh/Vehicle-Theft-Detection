@@ -54,10 +54,19 @@ The **Vehicle Theft Detection System** is a hardware-based security system desig
    pip install opencv-python face-recognition geopy smtplib
    ```
 2️⃣ **Set Up Email Configuration:**
-   - ✏️ Update `fromaddr` with the sender's email ID.
-   - ✏️ Update `toaddr` with the owner's email ID.
+   - ✏️ Update `fromaddr` with `your-email@example.com` (Sender's email ID).
+   - ✏️ Update `toaddr` with `your-email@example.com` (Receiver's email ID).
    - 🔑 Replace the `password` with the email's app password.
 3️⃣ **Run the Script:**
    ```bash
    python vehicle_theft_detection.py
    ```
+
+## 🔮 Future Enhancements
+🚀 **Integrating GSM Module**: To send alerts via SMS.  
+☁️ **Cloud-Based Storage**: To store captured images and logs securely.  
+📱 **Mobile App Interface**: To monitor and control the system remotely.  
+
+## 🏁 Conclusion
+This **Vehicle Theft Detection System** provides an efficient and automated way to prevent unauthorized vehicle access. By using **face recognition** and **live location tracking**, it enhances vehicle security and provides real-time alerts to the owner. 🚗🔐
+
